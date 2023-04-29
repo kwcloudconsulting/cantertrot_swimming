@@ -1,12 +1,15 @@
 import React from "react";
 import Layout from "../components/Layout";
+import Alllessons from "../components/Alllessons";
 
-function book() {
+const Book = () => {
   return (
     <Layout>
-      <h1>Welcome to the shop</h1>
+      <main className="page">
+        <Alllessons />
+      </main>
     </Layout>
   );
-}
+};
 
-export default book;
+export default Book;
